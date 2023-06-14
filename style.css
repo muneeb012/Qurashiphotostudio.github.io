@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+header h3{
+    color: white;
+}
+.logo h3{
+    padding-left: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.menu ul li{
+    display: inline-block;
+    margin: 5px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 100%;
+
+}
+.baner img{
+    width: 100%;
+}
+.baner{
+    width: 100%;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.social ul li{
+    display: inline-block;
+    margin: 10px;
+}
+.social{
+    padding-right: 10px;
+    font-size: 20px;
+}
+.about{
+    color: white;
+    text-align: center;
+    /* background-color: aqua; */
+    margin-top: 30px;
+    padding-top: 10px;
+    /* width: 600px; */
+}
+h3{
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.s1 img {
+    width: 300px;
+    height: 400px;
+
+}
+.services ul li{
+   display: inline-flex;
+   margin: 10px;
+}
+.services{
+    text-align: center;
+    margin-top: 120px;
+    /* background-color: aqua; */
+   
+}
+.s1{
+    width: 300px;
+    /* background-color: aqua; */
+    height: auto;
+}
+.online{
+    display: flex;
+    align-items: center;
+    /* background-color: aqua; */
+    justify-content: space-between;
+    margin-top: 120px;
+
+}
+.text {
+    width: 500px;
+    padding-left: 20px;
+}
+iframe{
+    border-radius: 20px;
+    margin-top: 20px;
+     border: solid white;
+}
+p{
+    color: white;
+}
+.video{
+    margin-right: 20px;
+    height: 300px;
+}
+h4{
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(0, 132, 255);
+    margin-top: 80px;
+    padding-top: 20px;
+  
+}
+.subscribe{
+    padding-right: 20px;
+    position: relative;
+    bottom: 40px;
+}
+.subscribe form input{
+    border-radius: 20px ;
+    outline: none;
+    border: none;
+    width: 300px;
+    height: 40px;
+    padding-left: 20px;
+}
+button{
+    background-color: rgb(255, 251, 0);
+    width: 150px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: none;
+}
+button:hover{
+    opacity: 0.9;
+    transition: 0.5s;
+}
+.map{
+    height: 60vh;
+    padding-left: 20px;
+}
+.contact{
+    height: 60vh;
+}
+.subscribe{
+    height: 60vh;
+    padding-top: 40px;
+}
+.contact ul li{
+    display: block;
+    margin: 30px;
+
+}
+.contact h4{
+    padding-left: 60px;
+}
+.contact a:hover{
+color: red;
+transition: 0.5s;
+}
+.chat{
+     position: fixed;
+    bottom: 0px;
+    right: 0px; 
+    z-index: 1;
+}
+.chat img{
+    width: 80px;
+}
+h5{
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+}
+#fb:hover{
+color: rgb(0, 183, 255);
+transition: 0.5s;
+}
+#insta:hover{
+    color: rgb(255, 0, 234);
+    transition: 0.5s;
+}
+#pin:hover{
+    color: red;
+    transition: 0.5s;
+}
+.menu ul li a:hover{
+color: red;
+transition: 0.5s;
+}
+@media screen and (max-width:848px) {
+    .menu{
+        display: none;
+    }
+    footer{
+display: flex;
+flex-direction: column;
+width: 100%;
+    }
+    
+    iframe{
+       width: 100%;
+      
+    }
+   .online{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+   }
+  
+   .text{
+    /* background-color: aqua; */
+    width: 400px;
+   }
+   
+   /* .contact{
+    height: 20vh;
+  }
+  .map{
+    height: 20vh;
+  }
+  .subscribe{
+    height: 20vh;
+} */
+@media only screen and (max-width: 396px){
+  .logo h3{
+    font-size: 10px;
+  }
+  .map iframe{
+    width: 250px;
+  }
+  .social{
+    font-size: 10px;
+    padding-top: 10px;
+  }
+  
+}
+.video iframe{
+    width: 100%;
+}
+}
